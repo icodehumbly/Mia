@@ -235,6 +235,17 @@ html,
     text-decoration: none;
 }
 
+// small screen laptops
+@media screen and (max-width: 1024px){
+}
 
-@media only and (max-width : 1920px) 
+// for ipads and tabs
+@media screen and (max-width: 768px){
+}
+    
+// for mobile
+@media screen and(max-width: 450px){
+}
+
+    
 
