@@ -1,0 +1,240 @@
+html,
+.body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+
+}
+
+.navigation {
+    border-radius: 15px;
+    background-color: rgba(4, 27, 41, 0.781);
+    padding: 20px 300px 80px;
+}
+
+.navigation ul {
+    flex: 1;
+    list-style: none;
+    margin: 0;
+    padding: 25px;
+    gap: 2.5rem;
+    display: flex;
+
+}
+
+.navigation li a {
+    color: aliceblue;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: rgb(10, 50, 68);
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 15% 15% 15% 15%;
+}
+
+.mia {
+    background-image:url(https://images.unsplash.com/photo-1498510531355-5dc32e16bf47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjExfHxibGFjayUyMGhlYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    display: flex;
+}
+.mia-about {
+    background-image: url(https://images.unsplash.com/photo-1644509966540-24e067e985dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI1fHxibGFjayUyMGhlYXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    display: flex;
+}
+
+.mia:hover {
+    opacity: 90%;
+    fill-opacity: inherit;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* this is the logo tag style */
+
+.cust-container {
+    float: left;
+    width: 640px;
+    height: auto;
+    padding: 10px 20px;
+    gap: 1rem;
+    border-style: groove;
+    align-items: center;
+    border-color: white;
+    color: white;
+    text-transform: capitalize;
+}
+
+.name {
+    color: aliceblue;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px 0px 20px 30px;
+}
+
+.logo-icon {
+    border-radius: 80%;
+    padding: 10px 0px 0px 40px;
+}
+
+
+/* this house the section tag in the html containing the image
+ to the left the h1 wwelcome tag */
+
+.image {
+    font-size: 26px;
+    display: flex;
+    gap: 1rem;
+    font-style: italic;
+    text-align: center;
+    height: 600px;
+    padding: 10px;
+}
+
+.image1 {
+    background-color: rgb(10, 50, 68);
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+.image2 {
+    background-color: rgb(148, 130, 117);
+    color: rgb(5, 5, 1);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.close {
+    background-color: rgb(54, 47, 42);
+    color: rgb(5, 5, 1);
+    padding: 20px;
+    border-radius: 12px;
+}
+.site {
+    font-style: normal;
+    font-size-adjust: calc(0.8);
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+    gap: 1rem;
+    align-content: center;
+    padding: 30px;
+}
+
+.box-1 {
+    background-image: url(https://images.pexels.com/photos/9798/pexels-photo-9798.jpg?auto=compress&cs=tinysrgb&w=400);
+    padding: 20px;
+}
+
+.box-2 {
+    background-image: url(https://media.istockphoto.com/id/1305347385/photo/cherry-blossom-in-full-bloom-cherry-flowers-in-small-clusters-on-a-cherry-tree-branch-fading.jpg?s=612x612&w=0&k=20&c=7E8iXTfnDMf_xf7qqYksia1Z2I3CUQ6c1XHxD_KYkqg=);
+    padding: 20px;
+    color: aliceblue;
+}
+
+.box-3 {
+    background-image: url(https://media.istockphoto.com/id/1006358392/photo/blur-shopping-mall-background.jpg?s=612x612&w=0&k=20&c=imTXC0OZsNzRfHTDnS_B6lKAxX7Jd3blzsFh_i4y-Lk=);
+    padding: 20px;
+}
+
+.picture-slider {
+    display: grid;
+    background-color: rgb(226, 199, 224);
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.picture-slider1 {
+    display: grid;
+    background-color: rgb(71, 67, 71);
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    /* justify-content: center; */
+    text-align: left;
+    padding: 40px;
+    background-color: rgb(241, 232, 221);
+    gap: 0.5rem;
+}
+
+.vision {
+    background-color: rgb(0, 4, 7);
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.mission {
+    background-color: rgb(118, 120, 122);
+    padding: 50px;
+    text-align: center;
+}
+
+.faith {
+    background-color: rgb(49, 48, 43);
+    padding: 10px;
+    text-align: center;
+    color: beige;
+}
+
+.img {
+    border-radius: 30px;
+    padding-left: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.vision:hover {
+    cursor: pointer;
+    color: rgb(170, 153, 177);
+    transition: 0.3s;
+}
+
+.mission:hover {
+    cursor: pointer;
+    color: rgb(201, 168, 77);
+    transition: 0.3s;
+}
+
+.faith:hover {
+    cursor: pointer;
+    color: rgb(214, 203, 139);
+    transition: 0.3s;
+}
+
+.socials {
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1496000040261-eb8d7cbb1d4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fGJsYWNrJTIwaGVhcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    padding: 50px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media only and (max-width : 1920px) 
+
